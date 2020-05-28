@@ -1,3 +1,9 @@
+@font-face{
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Italic.ttf");
+    font-size : 1em; 
+}
+
 header{
     width: 100%;
     height: 150px;
@@ -15,7 +21,7 @@ header .header-black{
     background-image: url("../css/clubs.png");
 }
 
-header .header-black .li{ 
+header .header-black li{ 
     background-repeat: no-repeat;
     display: inline-block;
     margin: 4px;
@@ -133,4 +139,19 @@ header .header-black li.club-22{
 header #logotipo{
     position:  absolute;
     top: 20px;
+}
+
+header .header-black li a{
+    width: 32px;
+    height: 32px;
+    display: block; 
+}
+
+#menu {
+    margin: 12px 0px;
+}
+
+#menu li{
+    display: inline-block;
+    font-family: "OpenSans";
 }
